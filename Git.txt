@@ -72,14 +72,31 @@ or
 
 - Git pull is used to update the local repository with recent changes commited in GitHub repository.
 
-****
+****git pull origin master
 
-Note: git status : will list the files added in stagging
+Note: git status : will list the modified files in stagging
 
+Create new branch from master branch:
 
-Test new
+****git checkout -b {new branch name}
 
+TO know the current branch 
 
+****git branch
+
+How to switch to a other branch
+
+****git checkout {branch name}
+
+How to merge:
+
+Eg: If I want to merge latest code in "testbranch" into "master"
+
+     I have to switch to master 
+     pull the code from master
+     then run the below command with "testbranch"
+      ****git merge {branchname}
+     Then stash-->commit--->Push
 
 =======
 >>>>>>> 29fefa01260c51a0e6ab00622ed856d294401a95
