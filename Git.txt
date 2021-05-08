@@ -1,0 +1,111 @@
+- Git is a version control tool
+- Install GIt locally
+- Create Account in Github
+- Create Repo in Github
+
+===========
+Use this link for Git commands: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+===========
+- From your local machine - Go to cmd
+
+- tell your user name to the Git 
+
+*****git config --global user.name "Sam Smith"
+
+- tell your email id
+
+*****git config --global user.email "sam@example.com"
+
+- Then create local repository. So, create one folder.
+
+  Eg: I create folder in c:/GitTest
+
+  Then run the cmd in that directory; 
+
+*****git init
+
+- Add our files to stash(stagging):
+
+*****git add *
+
+- Commit 
+
+*****git commit -m "message"
+
+-m is the message
+
+- Now Push the files to github 
+
+ First connect with the remote repository.
+
+ ****git remote add origin https://github.com/aerox-arvin/MyLearnings.git
+
+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
+
+  Note: origin- remote repository.
+
+****git push origin master
+
+  Note: master- by default the repository is created in master branch. so it is mentioned.
+
+
+Then, it will ask for credentials. Once credentials are verified commit will happen.
+
+<<<<<<< HEAD
+- Git clone is to pull the code from Github repository for the first time.
+
+****git clone https://github.com/aerox-arvin/MyLearnings.git
+
+Here, we have to give the repository origin details.
+
+- How to Clone a Specific Branch
+Now let's clone a specific branch from our demo repository. There are two ways to clone a specific branch. You can either:
+
+Clone the repository, fetch all branches, and checkout to a specific branch immediately.
+Clone the repository and fetch only a single branch.
+
+
+****git clone --branch <branchname> <remote-repo-url>
+or
+
+****git clone -b <branchname> <remote-repo-url>
+
+- Git pull is used to update the local repository with recent changes commited in GitHub repository.
+
+****
+
+Note: git status : will list the files added in stagging
+
+
+Test new
+
+
+
+=======
+>>>>>>> 29fefa01260c51a0e6ab00622ed856d294401a95
+
+
+
+
+
+
+
+
+
+
+
+================
+stash (stagging) ---- Is commit 1 --- Initially files are commited to stash
+
+commit ---- Is commit 2 --- Files in stash alone get commited
+
+
+
+
+
+
+
+
+
+
+
