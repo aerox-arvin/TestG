@@ -40,7 +40,7 @@ Use this link for Git commands: https://confluence.atlassian.com/bitbucketserver
 
  ****git remote add origin https://github.com/aerox-arvin/MyLearnings.git
 
-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
+
 
   Note: origin- remote repository.
 
